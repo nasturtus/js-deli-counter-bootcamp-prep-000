@@ -22,7 +22,7 @@ function currentLine(katzDeli) {
       str+= (i+1) + `. ${katzDeli[i]}, `
     }
     console.log(str)
-    newStr = str.slice(0, str.length - 1);
+    var newStr = str.slice(0, str.length - 1);
     console.log(newStr)
     return str;
   }
