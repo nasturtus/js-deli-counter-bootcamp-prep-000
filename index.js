@@ -21,9 +21,7 @@ function currentLine(katzDeli) {
     for (var i = 0; i < katzDeli.length; i++) {
       str+= (i+1) + `. ${katzDeli[i]}, `
     }
-    console.log(str)
-    var newStr = str.slice(0, str.length - 1);
-    console.log(newStr)
+    var newStr = str.slice(0, str.length - 2);
     return newStr;
   }
 }
