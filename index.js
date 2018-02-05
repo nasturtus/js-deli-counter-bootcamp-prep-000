@@ -19,7 +19,7 @@ function currentLine(katzDeli) {
   } else {
     var str = "The line is currently: "
     for (var i = 0; i < katzDeli.length; i++) {
-      str += (i+1) + ` ${katzDeli[i]},`
+      str += (i+1) + `. ${katzDeli[i]} ,`
     }
     return str;
   }
