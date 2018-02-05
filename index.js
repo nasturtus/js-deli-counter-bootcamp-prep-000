@@ -21,5 +21,6 @@ function currentLine(katzDeli) {
     for (var i = 0; i < katzDeli.length; i++) {
       str += (i+1) + ` ${katzDeli[i]},`
     }
+    return str;
   }
 }
